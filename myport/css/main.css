@@ -1,0 +1,391 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    margin: 0;
+}
+
+ /* navbar start */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: red;
+    width: 100%; height: 65px;
+    border-bottom: 1px dashed white;
+}
+.navbar .nav-logo{
+    float: left;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+.navbar .nav-logo a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.navbar .nav-menu{
+    float: right;
+    margin-right: 150px;
+    margin-top: 6px;
+}
+.navbar .nav-menu a{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+    text-transform: uppercase;
+}
+.navbar .nav-menu a:hover{
+    color: black;
+}
+
+/* navbar end */
+/* home start */
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; height: 600px;
+    background-color: red;
+}
+.home .home-abt{
+    float: left;
+    margin-left: 150px;
+}
+.home-abt h1{
+    font-size: 40px;
+    margin: 0;
+}
+.home-abt h2{
+    font-size: 30px;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.7);
+}
+.home-abt h3{
+    font-size: 25px;
+    margin: 0;
+}
+.home-abt input{
+    font-size: 15px;
+    background-color: white;
+    padding: 8px 20px 8px 20px;
+    color: red;
+    border: 2px solid white;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.home-abt input:hover{
+    background-color: transparent;
+    color: white;
+}
+.home-img{
+    margin-right: 300px;
+    margin-top: 100px;
+}
+.home-img img{
+    border-radius: 50%;
+}
+
+/* home end */
+/* about start */
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+    width: 100%;
+    height: 600px;
+}
+.about-img{
+    float: left;
+    margin-left: 150px;
+}
+.about-img img{
+    width: 600px;
+}
+.about-sec{
+    float: right;
+    margin-right: 100px;
+    width: 40%;
+}
+.about-sec .about-text p{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.about-sec .about-text h2{
+    font-size: 23px;
+    text-transform: capitalize;
+}
+.about-sec .about-para p{
+    font-size: 14px;
+    text-align: justify;
+}
+.about .skill-name p {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.about .skill-name p:last-child {
+    float: right;
+}
+
+.about .progress {
+    height: 10px;
+    border-radius: 10px;
+    background: white;
+}
+
+.about .progress .progress-bar {
+    width: 0px;
+    background: red;
+    border-radius: 10px;
+}
+.about .button input{
+    font-size: 15px;
+    background-color: red;
+    padding: 8px 20px 8px 20px;
+    color: white;
+    border: 2px solid red;
+    margin-top: 20px;
+}
+.about .button input:hover{
+    background-color: transparent;
+    color: red;
+}
+
+/* about end */
+/* service start */
+
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 400px;
+}
+.service .title p{
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.service .title h1{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: 2px underline red;
+}
+.service .row{
+    display: flex;
+    margin-top: 50px;
+}
+.service .service-item h2{
+    font-size: 25px;
+}
+.service .service-item p{
+    font-size: 15px;
+    width: 75%;
+}
+.service .service-item h2,
+.service .service-item p{
+    padding-left: 15px;
+}
+.service .service-item{
+    align-items: center;
+    background-color: white;
+    margin-left: 10px;
+    box-shadow: inset 0 0 0 0 transparent;
+    transition: ease-out 0.5s;
+}
+.service .service-item:hover {
+    box-shadow: inset 700px 0 0 0 #EF233C;
+    color: white;
+}
+
+/* service end */
+/* price start */
+
+.price{
+    background-color: transparent;
+    width: 100%;
+    height: 600px;
+}
+.price .heading {
+	text-align: center;
+	padding: 2% 0;
+}
+.price .heading h1{
+	font-size: 30px;
+	line-height: 0;
+	padding-top: 15px;
+	color: black;
+    text-decoration: 2px underline red;
+}
+.price .price-data{
+	width: 75%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+}
+.price .price-list{
+	width: 200px;
+	height: 325px;
+	background-color: whitesmoke;
+	text-align: center;
+}
+.price .price-list h1{
+	font-size: 30px;
+	padding-top: 5px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.price .price-list h3 {
+	font-size: 20px;
+}
+.price .price-list p{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.price .price-list input {
+    font-size: 15px;
+    background-color: red;
+    padding: 8px 20px 8px 20px;
+    color: white;
+    border: 2px solid red;
+}
+.price .price-list:hover{
+	color: red;
+}
+.price .price-list input:hover{
+	background-color: transparent;
+    color: red;
+}
+
+/* price end */
+/* contract start */
+
+.contract{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; height: 400px;
+    background-color: red;
+}
+.contract .contract-img{
+    float: left;
+}
+.contract .contract-img img{
+    width: 600px;
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 10%;
+}
+.contract .contract-form{
+    float: right;
+    width: 30%;
+    margin-top: 90px;
+    margin-right: 200px;
+}
+.contract legend{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.contract label{
+    font-size: 15px;
+    color: white;
+    padding-bottom: 10px;
+}
+.contract #name, #email, #message{
+    font-size: 20px;
+}
+.contract #submit{
+    font-size: 15px;
+    background-color: white;
+    padding: 8px 20px 8px 20px;
+    color: red;
+    border: 2px solid white;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.contract #submit:hover{
+    background-color: transparent;
+    color: white;
+}
+
+/* contract end */
+/* footer start */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; height: 300px;
+    background-color: whitesmoke;
+}
+.footer-abt h1{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+.footer-abt h3{
+    font-size: 23px;
+    text-align: center;
+    color: black;
+}
+.footer-cnt{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-cnt p{
+    margin: 0;
+    font-size: 20px;
+    padding: 0 25px;
+    border-right: 2px solid rgba(0, 0, 0, 0.6);
+}
+.footer-cnt p:last-child{
+    border: none;
+}
+footer .copyright {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+footer .copyright::before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 1px;
+    top: 0;
+    left: 25%;
+    background: rgba(0, 0, 0, .2);
+}
+
+footer .copyright p {
+    margin: 0;
+    color: black;
+}
+
+footer .copyright p {
+    text-align: right;
+}
+
+footer .copyright p a {
+    color: black;
+    font-weight: 600;
+}
+
+footer .copyright p a:hover {
+    color: #414141;
+}
+
+/* footer end */
